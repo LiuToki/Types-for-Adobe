@@ -1559,11 +1559,10 @@ declare class ProjectItem {
 
 	/**
 	 * Returns a structure describing the current interpretation of the projectItem.
-	 * TODO: any.
 	 * @param interpretation A footage interpretation structure.
 	 * @rtrue if successful.
 	 */
-	setFootageInterpretation(interpretation: any): boolean
+	setFootageInterpretation(interpretation: FootageInterpretation): boolean
 
 	/**
 	 * Sets the in point to timeInTicks, for specified media types.
